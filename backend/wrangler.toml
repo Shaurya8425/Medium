@@ -1,0 +1,10 @@
+name = "blogsy"
+compatibility_date = "2023-12-01"
+nodejs_compat = true
+
+[vars]
+DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYTQwNWQ3MWYtZTk4MC00NjFjLWI2ZmUtMDI0MDJiM2NkZTg0IiwidGVuYW50X2lkIjoiMDlkYjUwZjllZTE5MjE1NTdmZDgyNzc4YWFkNzJhZGUxMWQ1ODI1M2I4NjY4ODc2NjFhZWVmYzQ2ZjlkNzdmYSIsImludGVybmFsX3NlY3JldCI6ImE1MWJhZjlkLTQ4ZGYtNDU0NS1hZDhhLWNhZWE5NjQ1NTYzZCJ9.zwcGN9oD4qZ2ELG6CejpvBfCUSfQMdjSpHxDClAqVu0"
+
+DIRECT_URL = "postgres://blogsy_user:Fy1vMlxFgSIg@ep-bold-glade-a1qqw0n7.ap-southeast-1.aws.neon.tech/blogsy?sslmode=require"
+
+JWT_SECRET="key"

@@ -1,0 +1,47 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "blogsy",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-01",
+  "vars": {
+    // "DATABASE_URL": "${env:DATABASE_URL}",
+    // "DIRECT_URL": "${env:DIRECT_URL}",
+    // "JWT_SECRET": "${env:JWT_SECRET}"
+
+    "DATABASE_URL": "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYTQwNWQ3MWYtZTk4MC00NjFjLWI2ZmUtMDI0MDJiM2NkZTg0IiwidGVuYW50X2lkIjoiMDlkYjUwZjllZTE5MjE1NTdmZDgyNzc4YWFkNzJhZGUxMWQ1ODI1M2I4NjY4ODc2NjFhZWVmYzQ2ZjlkNzdmYSIsImludGVybmFsX3NlY3JldCI6ImE1MWJhZjlkLTQ4ZGYtNDU0NS1hZDhhLWNhZWE5NjQ1NTYzZCJ9.zwcGN9oD4qZ2ELG6CejpvBfCUSfQMdjSpHxDClAqVu0",
+    "DIRECT_URL": "postgres://blogsy_user:Fy1vMlxFgSIg@ep-bold-glade-a1qqw0n7.ap-southeast-1.aws.neon.tech/blogsy?sslmode=require",
+    "JWT_SECRET": "key"
+  }
+  // "compatibility_flags": [
+  //   "nodejs_compat"
+  // ],
+  // "vars": {
+  //   "MY_VAR": "my-variable"
+  // },
+  // "kv_namespaces": [
+  //   {
+  //     "binding": "MY_KV_NAMESPACE",
+  //     "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  //   }
+  // ],
+  // "r2_buckets": [
+  //   {
+  //     "binding": "MY_BUCKET",
+  //     "bucket_name": "my-bucket"
+  //   }
+  // ],
+  // "d1_databases": [
+  //   {
+  //     "binding": "MY_DB",
+  //     "database_name": "my-database",
+  //     "database_id": ""
+  //   }
+  // ],
+  // "ai": {
+  //   "binding": "AI"
+  // },
+  // "observability": {
+  //   "enabled": true,
+  //   "head_sampling_rate": 1
+  // }
+}
