@@ -15,7 +15,6 @@ import Publish from "./components/Publish";
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(getAuthState());
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const checkAuth = async () => {
@@ -28,7 +27,6 @@ function App() {
       event: CustomEvent<{ isAuthenticated: boolean; error: string | null }>
     ) => {
       setIsAuthenticated(event.detail.isAuthenticated);
-      setError(event.detail.error);
       setLoading(false);
     };
 
